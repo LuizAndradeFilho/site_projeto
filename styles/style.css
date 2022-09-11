@@ -1,17 +1,77 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'danube';
+    src: url(../fonts/DANUB___.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url(../fonts/BebasNeue-Regular.ttf) format('truetype');
+}
+
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+
+:root {
+    --font1: 'danube';
+    --font2: 'Bebas';
+    --cor1: #0B1C54;
+}
+
+.links {
+    font-weight: bold;
+}
+
 
 main {
     background-color: rgb(4, 4, 31);
 }
 
 .img-home {
+    background-image: url(../images/home-site-projeto-iphone.jpg); 
     height: 667px;
     width: 375px;
-    margin: auto;       
+    margin: auto;  
+      
+}
+
+.img {    
+    width: 375px;
+    height: 375px;   
+    margin: auto;
+    background-position: center;    
+}
+
+.img-1 {
+    background-image: url(../images/images-quadradas-p1.jpg);
+}
+
+.img-2 {
+    background-image: url(../images/images-quadradas-p2.jpg);
+}
+
+.textos {
+    background-color:white;
+    width: 375px;
+    margin: auto;
+}
+
+.textos > h1 {
+    color: var(--cor1);
+    padding: 15px 15px 0px 15px;
+    font-size: 1.8em;
+    font-family: var(--font2);
+}
+
+.textos > h3 {
+    padding: 5px 30px 30px 30px;
+    font-size: 1em;
+    font-weight: lighter;
+    line-height: 1.8em;  
+   
+    
 }
