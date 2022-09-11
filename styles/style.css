@@ -35,8 +35,7 @@ main {
     background-image: url(../images/home-site-projeto-iphone.jpg); 
     height: 667px;
     width: 375px;
-    margin: auto;  
-      
+    margin: auto;          
 }
 
 .img {    
@@ -47,11 +46,16 @@ main {
 }
 
 .img-1 {
-    background-image: url(../images/images-quadradas-p1.jpg);
+    background-image: url(../images/images-quadradas-p1-1.jpg);
+    background-attachment: fixed;
 }
 
 .img-2 {
     background-image: url(../images/images-quadradas-p2.jpg);
+}
+
+.img-3 {
+    background-image: url(../images/images-quadradas-p3.jpg);
 }
 
 .textos {
@@ -71,7 +75,5 @@ main {
     padding: 5px 30px 30px 30px;
     font-size: 1em;
     font-weight: lighter;
-    line-height: 1.8em;  
-   
-    
+    line-height: 1.8em;    
 }
