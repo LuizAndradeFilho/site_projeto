@@ -38,6 +38,17 @@ main {
     margin: auto;          
 }
 
+article {
+    position: relative;
+}
+
+.line {
+    width: 200px;
+    height: 5px;
+    background-color: orange;
+    margin: auto;
+}
+
 .img {    
     width: 375px;
     height: 375px;   
@@ -61,6 +72,14 @@ main {
     background-image: url(../images/images-quadradas-p4.jpg);
 }
 
+.img-5 {
+    background-image: url(../images/images-quadradas-p5.jpg);
+}
+
+.img-6 {
+    background-image: url(../images/images-quadradas-p6.jpg);
+}
+
 .textos {
     background-color:white;
     width: 375px;
@@ -79,4 +98,21 @@ main {
     font-size: 1em;
     font-weight: lighter;
     line-height: 1.8em;    
+}
+
+h4 {
+    padding: 15px 15px 0px 15px;
+    color: var(--cor1);
+    font-family: var(--font2);
+    font-size: 1.2em;
+}
+
+.videos {
+    margin: auto;
+}
+
+.youtube {
+    height: 200px;
+    width: 375px;
+    margin: auto;
 }
