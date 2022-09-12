@@ -46,8 +46,7 @@ main {
 }
 
 .img-1 {
-    background-image: url(../images/images-quadradas-p1-1.jpg);
-    background-attachment: fixed;
+    background-image: url(../images/images-quadradas-p1.jpg);    
 }
 
 .img-2 {
@@ -56,6 +55,10 @@ main {
 
 .img-3 {
     background-image: url(../images/images-quadradas-p3.jpg);
+}
+
+.img-4 {
+    background-image: url(../images/images-quadradas-p4.jpg);
 }
 
 .textos {
