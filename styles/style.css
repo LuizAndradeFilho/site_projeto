@@ -80,6 +80,10 @@ article {
     background-image: url(../images/images-quadradas-p6.jpg);
 }
 
+.img-7 {
+    background-image: url(../images/images-quadradas-p7.jpg);
+}
+
 .textos {
     background-color:white;
     width: 375px;
@@ -115,4 +119,54 @@ h4 {
     height: 200px;
     width: 375px;
     margin: auto;
+}
+
+
+
+table {
+    width: 375px;
+    border-collapse: collapse;    
+}
+
+td, th {
+    border: 0px solid black;
+    padding: 10px;     
+}
+
+thead{
+    background-color: var(--cor1);
+    color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: var(--cor1);
+}
+
+/* tbody > tr:nth-child(2n) {
+    background-color: rgb(211, 211, 211);
+} */
+
+tbody > tr:nth-child(odd) {
+    background-color: rgb(142, 184, 231);
+}
+
+tbody > tr:nth-child(even) {
+    background-color: rgb(163, 215, 231);
+}
+
+.pop {
+    width: 50px;
+}
+
+.total {
+    font-weight: bold;
+    background-color: #0B1C54;
+    color: white;
+}
+
+tfoot{
+    background-color: grey;
+    color: white;
 }
